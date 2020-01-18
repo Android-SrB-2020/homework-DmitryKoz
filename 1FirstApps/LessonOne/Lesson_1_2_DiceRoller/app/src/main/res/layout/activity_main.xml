@@ -18,6 +18,13 @@
         android:textSize="30sp"
         android:id="@+id/result_text"/>
 
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/reset_label" />
+
 
     <Button
         android:id="@+id/roll_button"
