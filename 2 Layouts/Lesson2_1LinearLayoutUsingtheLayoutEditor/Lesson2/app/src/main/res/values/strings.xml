@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Dmitry Kozyriev</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio"> Roger Federer ( born 8 August 1981) is a Swiss professional tennis player\n
+        who is ranked world No. 3 in men\'s singles tennis by the Association of Tennis Professionals\n
+        (ATP). He has won 20 Grand Slam singles titles—the most in history by a male player—and\n
+        has held the world No. 1 spot in the ATP rankings for a record total of 310 weeks \n
+        (including a record 237 consecutive weeks) and was the year-end No. 1 five times, \n
+        including four consecutive. Federer, who turned professional in 1998, was continuously \n
+        ranked in the top ten from October 2002 to November 2016. Federer has won a record eight\n
+        Wimbledon men\'s singles titles, six Australian Open titles, five US Open titles (all \n
+        consecutive, a record), and one French Open title. He is one of eight men to have achieved\n
+        a Career Grand Slam.</string>
+    <string name="CodingChallengeLock">Red Lock</string>
+</resources>
