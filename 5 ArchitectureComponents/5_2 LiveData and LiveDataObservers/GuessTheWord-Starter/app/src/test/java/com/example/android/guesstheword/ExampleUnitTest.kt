@@ -14,18 +14,20 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword.screens.score
+package com.example.android.guesstheword
 
-import android.util.Log
-import androidx.lifecycle.ViewModel
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+class ExampleUnitTest {
 
-class ScoreViewModel(finalScore: Int) : ViewModel() {
-
-    // The final score
-    var score = finalScore
-
-    init {
-        Log.i("ScoreViewModel", "Final score is $finalScore")
+    @Test
+    fun addition_isCorrect() {
+        assertEquals(4, 2 + 2)
     }
 }

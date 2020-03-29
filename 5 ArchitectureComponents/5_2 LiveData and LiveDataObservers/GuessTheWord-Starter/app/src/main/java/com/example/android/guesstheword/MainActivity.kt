@@ -14,18 +14,17 @@
  * limitations under the License.
  */
 
-package com.example.android.guesstheword.screens.score
+package com.example.android.guesstheword
 
-import android.util.Log
-import androidx.lifecycle.ViewModel
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 
-class ScoreViewModel(finalScore: Int) : ViewModel() {
+class MainActivity : AppCompatActivity() {
 
-    // The final score
-    var score = finalScore
-
-    init {
-        Log.i("ScoreViewModel", "Final score is $finalScore")
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.main_activity)
     }
+
 }
